@@ -1,0 +1,35 @@
+body {
+    background: #E8C5C5; /* define a cor de fundo da pagina*/
+    margin-left: 100px; /* define a margem do lado esquerdo da pagina */
+    margin-right: 200px; /* define a margem do lado direito da pagina */
+}
+
+header {
+    margin-top: 70px; /* define a margem de cima do elemento */
+}
+
+h1 {
+    color: red; /* define a cor do elemento h1 */
+    font-family: fantasy; /* define o estilo da fonte do elemento h1 */
+}
+
+h2{
+    font-family: fantasy; /* define o estilo da fonte do elemento h2 */
+}
+
+p {
+    font-size: 18px;    /* define o tamanho da fonte do elemento p */
+}
+
+footer{
+    margin-bottom: 30px;
+}
+
+.img_padrao{ /* . serve para identificar que se trata de uma classe*/
+    margin-bottom: 20px;
+    width: 300px;
+}
+
+.logo{
+    width: 30px;
+}

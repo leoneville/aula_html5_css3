@@ -1,0 +1,135 @@
+<!DOCTYPE html> <!-- defino o formato do arquivo -->
+<html lang="pt-br"> <!-- inicio minha pagina com a tag html e digo qual idioma vou usar -->
+    <head> <!-- cabeça da pagina -->
+        <meta charset="utf-8"> <!-- define a codificação que vou usar-->
+        <title>Minha página</title> <!-- O titulo que fica na aba do navegador -->
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+
+    <body> <!-- O corpo da minha página -->
+        <nav> <!-- cria um menu de navegacao-->
+            <p>Minha página</p>
+            <ul> <!-- monta uma lista -->
+                <li>
+                    <a href="#servicos">SERVIÇOS</a> <!-- #servicos linka com a ID de servicos criada em section -->
+                </li>
+                <li>
+                    <a href="#clientes">CLIENTES</a>
+                </li>
+                <li>
+                    <a href="#parceiros">PARCEIROS</a>
+                </li>
+                <li>
+                    <a href="#time">TIME</a>
+                </li>
+                <li>
+                    <a href="#contato">CONTATO</a>
+                </li>
+            </ul>
+        </nav>
+
+        <header> <!-- cabeçalho da pagina -->
+                <h1>Minha Pagina</h1> <!--h1 = define o tamanho da fonte, de h1 ate h6 sendo h1 maior e h6 menor-->
+                <p> <!-- coloca o texto em um paragrafo-->
+                    Oferecemos o desenvolvimento dos melhores 
+                    sites e apps para a sua empresa
+                </p>
+        </header>
+
+        <section id="servicos"> <!-- cria uma sessão identificada pela ID -->
+            <h2>SERVIÇOS</h2>
+            <p>
+                Oferecemos os melhores serviços em 
+                desenvolvimento de sites e aplicativos
+                Oferecemos os melhores serviços em 
+                desenvolvimento de sites e aplicativos
+                Oferecemos os melhores serviços em 
+                desenvolvimento de sites e aplicativos
+                Oferecemos os melhores serviços em 
+                desenvolvimento de sites e aplicativos
+                Oferecemos os melhores serviços em 
+                desenvolvimento de sites e aplicativos
+                Oferecemos os melhores serviços em 
+                desenvolvimento de sites e aplicativos
+                Oferecemos os melhores serviços em 
+                desenvolvimento de sites e aplicativos
+                Oferecemos os melhores serviços em 
+                desenvolvimento de sites e aplicativos
+            </p>
+            <div> <!-- serve para separar elementos -->
+                <img src="img/site.jpg" class="img_padrao"> <!-- coloca uma imagem na pagina e cria uma classe pra ela para usar no css-->
+            </div>
+            <div>
+                <img src="img/app.jpg" class="img_padrao">
+            </div>
+        </section>
+
+        <section id="clientes">
+            <h2>CLIENTES</h2>
+            <p>
+                Nossos clientes ficaram muito satisfeitos 
+                com o nosso serviço
+            </p>
+            <div>
+                <img src="img/cliente 1.jpg" class="img_padrao">
+            </div>
+            <div>
+                <img src="img/cliente 2.jpg" class="img_padrao">
+            </div>
+        </section>
+
+        <section id="parceiros">
+            <h2>PARCEIROS</h2>
+            <p>
+                Nossos parceiros nos ajudam a entregar as melhores 
+                soluções para nossos clientes
+            </p>
+            <div>
+                <a href="https://duckduckgo.com/" target="_blank"> <!-- Transforma a imagem em um link, e coloca pra abrir em outra aba -->
+                    <img src="img/parceiro 1.png" width="130px">
+                </a>
+            </div>
+            <div>
+                <a href="https://digitalinnovation.one/" target="_blank">
+                    <img src="img/parceiro 2.png" width="130px">
+                </a>
+            </div>
+        </section>
+
+        <section id="time">
+            <h2>TIME</h2>
+            <p>
+                Nosso time trabalha com muita qualidade e empenho para entregar 
+                o melhor produto para nossos clientes.
+            </p>
+            <div>
+                <img src="img/time 1.jpg" class="img_padrao"> 
+            </div>
+            <div>
+                <img src="img/time 2.jpg" class="img_padrao">
+            </div>
+        </section>
+
+        <section id="contato">
+            <h2>CONTATO</h2>
+            <p>
+                Entre em contato com nossa equipe
+            </p>
+            <div>
+                <img src="img/email.png" class="logo">
+                <p><a href="mailto:contato@empresa.com">contato@empresa.com</a></p> <!-- transforma o email em um link, e faz abrir ele no computador -->
+            </div>
+            <div>
+                <img src="img/phone.png" class="logo">
+                <p><a href="tel:9999999999">(99) 9999-9999</a></p> <!--  Transforma o telefone em um link e o faz abrir no computador -->
+            </div>
+        </section>
+
+        <footer> <!-- O roda pé da minha página-->
+                <p>
+                    Desenvolvido por Neville Guimarães
+                </p>
+        </footer>
+    </body>
+
+</html> <!-- Sempre que eu abrir qualquer tag, eu tenho que fecha-la -->
